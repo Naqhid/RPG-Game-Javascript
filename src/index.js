@@ -43,3 +43,5 @@ const config = {
 };
 
 new Phaser.Game(config);
+
+// basic controls
