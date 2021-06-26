@@ -5,7 +5,7 @@
             "type": "frames",
             "repeat": -1,
             "frameRate": 6,
-            "frames": [
+            "frames.": [
                 {
                     "key": "bandit",
                     "frame": "lightbandit_run_0"
