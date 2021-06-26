@@ -47,3 +47,5 @@ export default class MatterEntity extends Phaser.Physics.Matter.Sprite {
     }
   };
 }
+
+// fix issues
