@@ -95,7 +95,7 @@ export default class Hero extends MatterEntity {
       this.anims.play('hero_atack', true);
       this.whackStuff();
     } else {
-      this.anims.play('hero_idle', true);
+      this.anims.play('hero_idles', true);
     }
     this.scene.input.on('pointermove', (pointer) => this.setFlipX(pointer.worldX < this.x));
   }
