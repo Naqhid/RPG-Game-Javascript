@@ -28,7 +28,7 @@ export default class Enemy extends MatterEntity {
     });
     const enemySensor = Bodies.circle(this.x, this.y, 80, {
       isSensor: true,
-      label: 'enemySensor',
+      label: 'enemySensors',
     });
     const compoundBody = Body.create({
       parts: [enemyCollider, enemySensor],
