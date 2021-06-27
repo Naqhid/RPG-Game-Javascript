@@ -18,7 +18,7 @@
 
 1. Open Terminal.
 2. Navigate to your desired location to download the contents of this repository.
-3. Copy and paste the following code into the Terminal: ```git clone git@github.com:MkrtichSargsyan/RPG-game-js.git```
+3. Copy and paste the following code into the Terminal: ```git clone git@github.com:Naqhid/RPG-Game-Javascript.git```
 4. Run "npm install".
 5. Run "npm start".
 6. Open, in your browser, 'localhost:1234'.
