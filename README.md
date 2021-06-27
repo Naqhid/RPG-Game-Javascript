@@ -10,7 +10,35 @@
 - Matterjs
 - Webpack
 - Tiled
-- Babbel
+- Babel
+
+## To get a local copy up and running follow these simple example steps.
+
+### Setup
+
+1. Open Terminal.
+2. Navigate to your desired location to download the contents of this repository.
+3. Copy and paste the following code into the Terminal: ```git clone git@github.com:MkrtichSargsyan/RPG-game-js.git```
+4. Run "npm install".
+5. Run "npm start".
+6. Open, in your browser, 'localhost:1234'.
+
+
+## Development
+- `npm start`
+- Open `http://localhost:1234`
+
+
+## Build
+- `npm run build`
+- All game files will be in `/dist`
+
+
+### Linters
+
+1. run `npm install`.
+2. run `npm run test` to check the js linters
+
 
 ## Author
 
