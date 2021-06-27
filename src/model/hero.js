@@ -51,7 +51,7 @@ export default class Hero extends MatterEntity {
 
     const username = JSON.parse(localStorage.getItem('username:'));
     const obj = {
-      user: usernames,
+      user: username,
       score: this.score,
     };
     api
