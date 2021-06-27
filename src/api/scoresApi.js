@@ -3,7 +3,7 @@ export default (() => {
     try {
       const response = await fetch(url, {
         mode: 'cors',
-        methods: 'POST',
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },

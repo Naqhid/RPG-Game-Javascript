@@ -18,7 +18,7 @@ export default class Enemy extends MatterEntity {
       frame: 'lightbandit_idle_0',
       drops,
       health: 80,
-      name: 'Naqhid',
+      name: 'bandit',
     });
 
     const { Body, Bodies } = Phaser.Physics.Matter.Matter;
@@ -28,7 +28,7 @@ export default class Enemy extends MatterEntity {
     });
     const enemySensor = Bodies.circle(this.x, this.y, 80, {
       isSensor: true,
-      label: 'enemySensors',
+      label: 'enemySensor',
     });
     const compoundBody = Body.create({
       parts: [enemyCollider, enemySensor],
@@ -42,7 +42,7 @@ export default class Enemy extends MatterEntity {
       callback: (other) => {
         if (other.gameObjectB && other.gameObjectB.name === 'hero') this.attacking = other.gameObjectB;
       },
-      context: this.scenes,
+      context: this.scene,
     });
   }
 

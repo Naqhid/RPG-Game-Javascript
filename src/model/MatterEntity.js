@@ -6,7 +6,7 @@ import DropItem from './dropItem';
 export default class MatterEntity extends Phaser.Physics.Matter.Sprite {
   constructor(data) {
     const {
-      name, scenes, x, y, health, drops, texture, frame,
+      name, scene, x, y, health, drops, texture, frame,
     } = data;
     super(scene.matter.world, x, y, texture, frame);
     this.x = x;
@@ -47,5 +47,3 @@ export default class MatterEntity extends Phaser.Physics.Matter.Sprite {
     }
   };
 }
-
-// fix issues

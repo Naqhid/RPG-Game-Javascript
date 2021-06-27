@@ -51,7 +51,7 @@ export default class Hero extends MatterEntity {
 
     const username = JSON.parse(localStorage.getItem('username:'));
     const obj = {
-      user: usernames,
+      user: username,
       score: this.score,
     };
     api
@@ -95,7 +95,7 @@ export default class Hero extends MatterEntity {
       this.anims.play('hero_atack', true);
       this.whackStuff();
     } else {
-      this.anims.play('hero_idles', true);
+      this.anims.play('hero_idle', true);
     }
     this.scene.input.on('pointermove', (pointer) => this.setFlipX(pointer.worldX < this.x));
   }

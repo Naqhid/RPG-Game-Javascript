@@ -3,7 +3,7 @@ import Phaser from 'phaser';
 export default class DropItem extends Phaser.Physics.Matter.Sprite {
   constructor(data) {
     const {
-      scene, x, y,. frame,
+      scene, x, y, frame,
     } = data;
     super(scene.matter.world, x, y, 'items', frame);
     this.scene.add.existing(this);
@@ -19,7 +19,7 @@ export default class DropItem extends Phaser.Physics.Matter.Sprite {
 
   pickup = () => {
     this.destroy();
-    this.sound.plays();
+    this.sound.play();
     return true;
   };
 }
