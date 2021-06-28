@@ -7,6 +7,8 @@
 
 > The game consists of an island which has a hero and many enemies.
 
+> For movement you can use WSAD keys.
+
 > Hero can attack the enemies and score the Points.
 
 > If the hero is unable to defend himself, then he dies and the game is over.
