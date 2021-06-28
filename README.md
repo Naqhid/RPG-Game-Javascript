@@ -2,6 +2,14 @@
 
 > An RPG game created using Javascript.
 
+## DESCRIPTION
+
+
+> The game consists of an island which has a hero and many enemies.
+
+> Hero can attack the enemies and score the Points.
+
+> If the hero is unable to defend himself, then he dies and the game is over.
 
 ## Built With
 
@@ -11,6 +19,11 @@
 - Webpack
 - Tiled
 - Babel
+
+# Live Demo
+
+[Open the game](https://unruffled-bhabha-955497.netlify.app/)
+
 
 ## To get a local copy up and running follow these simple example steps.
 
