@@ -41,6 +41,10 @@
 6. Open, in your browser, 'localhost:1234'.
 
 
+## Game Design Document
+
+You can see a detailed Game Design Document [here](https://docs.google.com/document/d/1H3PKfc-WnsJYOyBL05h--bzhzKn-hl1nYn-hWTySiCs/edit?usp=sharing)
+
 ## Development
 - `npm start`
 - Open `http://localhost:1234`
