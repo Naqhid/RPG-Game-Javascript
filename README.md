@@ -1,21 +1,18 @@
 # RPG_Game
 
-> An RPG game created using Javascript.
+> An RPG game created using Javascript. It is a turn-based RPG game with Phaser librar
 
 ## DESCRIPTION
 
 
-> The game consists of an island which has a hero and many enemies.
+> The game is about a lonely knight that fell into an island on which there are lots of bandits. He can cut the trees and destroy other objects and get a 50 score, also he can kill the bandits and get 200 scores for every bandit.
 
-> For movement you can use WSAD keys.
+> Gameplay is Extremely simple. You move around with WASD(W-Move up, A-Move left, S-Move down, D-Move Right) keys, as usual, 
+> and left-click for the attack. Try to get as many points as you can, before you die.
 
-> The control includes (W-Move up, A-Move left, S-Move down, D-Move Right) keys.
+> Good Luck!
 
-> For attack you can use the left click.
 
-> Hero can attack the enemies and score the Points.
-
-> If the hero is unable to defend himself, then he dies and the game is over.
 
 ## Built With
 
@@ -25,6 +22,7 @@
 - Webpack
 - Tiled
 - Babel
+- Netlify for the deployment
 
 # Live Demo
 
