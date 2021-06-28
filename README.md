@@ -9,6 +9,10 @@
 
 > For movement you can use WSAD keys.
 
+> The control includes (W-Move up, A-Move left, S-Move down, D-Move Right) keys.
+
+> For attack you can use the left click.
+
 > Hero can attack the enemies and score the Points.
 
 > If the hero is unable to defend himself, then he dies and the game is over.
