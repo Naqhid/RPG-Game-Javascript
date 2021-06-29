@@ -43,7 +43,7 @@
 
 ## Game Design Document
 
-You can see a detailed Game Design Document [here](https://docs.google.com/document/d/1H3PKfc-WnsJYOyBL05h--bzhzKn-hl1nYn-hWTySiCs/edit?usp=sharing)
+You can see a detailed Game Design Document [here](https://docs.google.com/document/d/1lvSvKc88b_weoVdJrMmSRbY5YBPYTrVhusjvfUwDqIs/edit?usp=sharing)
 
 ## Development
 - `npm start`
